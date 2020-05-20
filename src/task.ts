@@ -40,6 +40,7 @@ export interface ITask {
   logs?: any[];
   type: TaskTypes;
   parallelTasks?: AllTaskType[][];
+  dynamicTasks?: AllTaskType[][];
   decisions?: {
     [decision: string]: AllTaskType[];
   };
